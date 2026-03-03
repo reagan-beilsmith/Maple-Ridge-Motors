@@ -1,0 +1,70 @@
+.logo { /*customizing brand logo in upper left corner!*/
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+nav.navbar { /*my navbar color*/
+    background-color:bisque;
+}
+body { /*page bg color*/
+    background-color: #052F1C;
+    margin: 0;
+    padding: 0;
+}
+
+.hero { /*hero pic position on page*/
+  background-image: url("hero pic.png");
+  background-size: contain;
+  background-position: left center;
+  background-repeat: no-repeat;
+  height: 650px;
+  position: relative;
+}
+
+.hero-text { /*"Welcome" text on right*/
+  background: rgba(0, 0, 0, 0.45);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  text-align: right;
+  padding-right: 40px;
+
+}
+
+.hero-text h1 { /*Big text on top*/
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-text p { /*Smaller text on bottom*/
+  font-size: 1.25rem;
+}
+
+.btn-round { /*Customizing the buttons at bottom*/
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.btn-main { /*Buttons color*/
+  background-color: bisque;
+  color: #052F1C;
+}
+
+.btn-main:hover { /*Color when mouse hovers over button*/
+  background-color: #89703D;
+}
+
+.bottom-buttons { /*Button positioning customization*/
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 90px;
+}
